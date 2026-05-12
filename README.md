@@ -1,4 +1,4 @@
-# Todo-Debug-Task-React.js--Report-
+# Todo-Debug-Task-React.js--Report
 
 At the beginning, the project was not working correctly because there were several errors in the code. So, I started reviewing the main project files such as main.jsx, App.jsx, and the Todo and Home pages.
 The first problem was that Routes and Route were being used without wrapping the application inside BrowserRouter. Therefore, I added BrowserRouter in the main.jsx file so that page navigation could work correctly.
